@@ -2,6 +2,9 @@
     position: relative;
 width: 1920px;
 height: 6174px;
-
 background: #0D0E13;
+}
+
+li:hover{
+color:#f3c11b;
 }
