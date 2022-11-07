@@ -34,3 +34,7 @@
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
 }
+li:hover{
+    color:#F5D25F;
+}
+}
