@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url(fonts/OpenSans-CondLight.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url(fonts/JetBrainsMono-Light.ttf) format('truetype');
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-display: swap;
     
 }
 .header{
@@ -22,6 +31,7 @@
 }
 .logo{
     width: 120px;
+    height: 120px;
     cursor: pointer;
 }
 .navigation ul li{
@@ -40,7 +50,7 @@
     top: 225px;
     align-items: center;
     margin-bottom: 10px;
-    font-family: 'Open Sans Condensed';
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .text-question-box{
     color: #EBC340;
@@ -84,7 +94,7 @@
 }
 .text-box{
     color: #fff;
-    font-family: 'Open Sans Condensed';
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 48px;
     letter-spacing: 1px;
     line-height: 48px;
@@ -112,7 +122,7 @@
     overflow: hidden;
     text-align: center;
     background-color: #181A26;
-    font-family: 'Open Sans Condensed';
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .pic{
 margin-top: 20px;
@@ -140,4 +150,8 @@ margin-top: 20px;
 }
 .icons a:hover{
     color: #fff;
+}
+.card img{
+    width: 194px;
+    height: 215px ;
 }
