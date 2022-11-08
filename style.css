@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Open Sans Condensed';
-    src: url(fonts/OpenSans-CondLight.ttf) format('truetype');
+    src: url('fonts/OpenSans-CondLight.ttf');
 }
 @font-face {
     font-family: 'JetBrains Mono';
-    src: url(fonts/JetBrainsMono-Light.ttf) format('truetype');
+    src: url('fonts/JetBrainsMono-Light.ttf');
 }
 *{
     margin: 0;
