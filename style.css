@@ -16,7 +16,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/background_stars.png);
+    background-image: url(images/background_stars.webp);
     background-position: center;
     background-size: cover;
     position: relative;
