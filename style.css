@@ -27,7 +27,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .logo{
     width: 120px;
@@ -83,9 +82,10 @@
     border-radius: 8px;
 }
 .background{
-    min-height: 100vh;
+    min-height:120vh;
     width: 100%;
     background-color: #0D0E13;
+    background-image: url(images/rocket_smoke.webp)
     
 }
 .main-text{
@@ -93,6 +93,7 @@
     left: 55px;
 }
 .text-box{
+    width: 90%;
     color: #fff;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 48px;
@@ -104,7 +105,7 @@
 .text-box h1{
     margin-bottom: 20px;
 }
-.container{
+.team-container{
     min-height: 100vh;
     width: 100%;
     background-color: #0D0E13;
@@ -155,3 +156,70 @@ margin-top: 20px;
     width: 194px;
     height: 215px ;
 }
+.mision{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #0D0E13;
+}
+.mision-text{
+    color: #fff;
+    position: relative;
+    margin-left: 50px;
+    font-size: 48px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.mision-text{
+    margin-bottom: 20px;
+}
+.sponsors_section{
+    min-height: 75vh;
+    width: 100%;
+    background-color: #0D0E13;
+}
+.spons-text{
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.footer{
+    min-height: 25vh;
+    width: 100%;
+    background-color: #101117;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.copyright{
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+}
+.social-media{
+    text-align: center;
+    font-size: 64px;
+}
+.fab{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.instagram{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .twitter{
+    color: #00aced
+  }
+  .youtube{
+    color: #bb0000
+  }
+  .tiktok{
+    color: #111111;
+    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+  }
