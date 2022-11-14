@@ -29,147 +29,111 @@
     justify-content: space-between;
 }
 .logo{
-    width: 120px;
-    height: 120px;
+    width: 8em;
+    height: 8em;
     cursor: pointer;
 }
 .navigation ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 1em;
 }
 .navigation ul li a{
     color: #fff;
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
 }
-.text-hero{
-    position: absolute;
-    left: 50px;
-    top: 225px;
-    align-items: center;
-    margin-bottom: 10px;
+.text{
+    padding: 2em 2em;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 .text-question-box{
     color: #EBC340;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 32px;
     font-style: italic; 
+    font-size: 2rem;
     letter-spacing: 6px;
     margin-top: 40px;
+    border: #bb0000 solid;
 }
-.text-box-big{
+.bigger{
+    font-size: 2rem;
+}
+.text-box{
     color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-style: normal;
+    font-size: 3rem;
+    border: #bb0000 solid;
 }
-.text-box-big p{
+.big p{
     color: #fff;
-    font-size: 150px;
-    letter-spacing: 2px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    font-size: 8rem;
+    letter-spacing: 6px;
+    padding: 0.25em 0em;
 }
-.text-box-big a{
+.text-box a{
     color: black;
     background: #f5d25f;
     display: inline-block;
-    border: 5px solid #EBC340;
-    padding: 10px 35px;
+    border: 0.25em solid #EBC340;
+    padding: 0.25em 1.5em;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 0.25em;
 }
 .background{
-    min-height:120vh;
+    min-height:100vh;
     width: 100%;
     background-color: #0D0E13;
-    background-image: url(images/rocket_smoke.webp)
-    
-}
-.main-text{
-    position: absolute;
-    left: 55px;
-}
-.text-box{
-    width: 90%;
-    color: #fff;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 48px;
-    letter-spacing: 1px;
-    line-height: 48px;
-    margin-top: 40px;
-
-}
-.text-box h1{
-    margin-bottom: 20px;
 }
 .team-container{
-    min-height: 100vh;
-    width: 100%;
-    background-color: #0D0E13;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card{
-    height: 425px;
-    width: 260px;
-    margin: 20px;
-    margin-top: 200px;
+    height: 60%;
+    width: 15%;
+    margin: 0.75em;
     box-shadow: 0 3px 5px #000;
-    border-radius: 10px;
+    border-radius: 0.5em;
     overflow: hidden;
     text-align: center;
     background-color: #181A26;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 .pic{
-margin-top: 20px;
+margin-top: 1em;
 }
 .info h3{
     color: #fff;
-    font-size: 20px;
-    padding: 10px 0;
+    font-size: 1:25rem;
+    padding: 0.5em 0;
 }
 .info span{
     color: #EBC340;
-    font-size: 15px;
+    font-size: 1rem;
 }
 .info p{
     color: #999;
     font-size: 13px;
-    padding: 10px 20px;
+    padding: 0.5em 1em;
 }
 .icons a{
     color:#EBC340;  
-    font-size: 20px;
+    font-size: 1rem;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 1em;
     padding: 0 5px; 
 }
 .icons a:hover{
     color: #fff;
 }
 .card img{
-    width: 194px;
-    height: 215px ;
-}
-.mision{
-    min-height: 100vh;
-    width: 100%;
-    background-color: #0D0E13;
-}
-.mision-text{
-    color: #fff;
-    position: relative;
-    margin-left: 50px;
-    font-size: 48px;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-.mision-text{
-    margin-bottom: 20px;
+    width: 80%;
+    height: 80%;
 }
 .sponsors_section{
     min-height: 75vh;
@@ -178,10 +142,8 @@ margin-top: 20px;
 }
 .spons-text{
     color: #fff;
-    position: relative;
     text-align: center;
-    font-size: 48px;
-    margin-bottom: 10px;
+    font-size: 3rem;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 .footer{
@@ -190,21 +152,21 @@ margin-top: 20px;
     background-color: #101117;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 2em 2em;
+
 }
 .copyright{
     color: #fff;
-    position: relative;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 36px;
+    font-size: 2rem;
 }
 .social-media{
     text-align: center;
-    font-size: 64px;
+    font-size: 4rem;
 }
 .fab{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 1em 0;
 }
 .instagram{
     color: transparent;
@@ -212,14 +174,18 @@ margin-top: 20px;
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
     -webkit-background-clip: text;
-  }
+}
   .twitter{
     color: #00aced
-  }
+}
   .youtube{
     color: #bb0000
-  }
+}
   .tiktok{
     color: #111111;
     filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
-  }
+}
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    }
