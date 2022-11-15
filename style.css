@@ -36,7 +36,7 @@
 .navigation ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 1em;
+    margin: 0 0.5em;
 }
 .navigation ul li a{
     color: #fff;
@@ -53,8 +53,6 @@
     font-style: italic; 
     font-size: 2rem;
     letter-spacing: 6px;
-    margin-top: 40px;
-    
 }
 .bigger{
     font-size: 2rem;
@@ -64,7 +62,6 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-style: normal;
     font-size: 3rem;
-    
 }
 .big p{
     color: #fff;
@@ -95,7 +92,7 @@
 }
 .card{
     height: 60%;
-    width: 15%;
+    width: 14%;
     margin: 0.75em;
     box-shadow: 0 3px 5px #000;
     border-radius: 0.5em;
@@ -105,11 +102,11 @@
     font-family: 'Open Sans Condensed', sans-serif;
 }
 .pic{
-margin-top: 1em;
+    margin-top: 1em;
 }
 .info h3{
     color: #fff;
-    font-size: 1:25rem;
+    font-size: 1.25rem;
     padding: 0.5em 0;
 }
 .info span{
@@ -131,14 +128,9 @@ margin-top: 1em;
 .icons a:hover{
     color: #fff;
 }
-.card img{
+.pic img{
     width: 80%;
     height: 80%;
-}
-.sponsors_section{
-    min-height: 75vh;
-    width: 100%;
-    background-color: #0D0E13;
 }
 .spons-text{
     color: #fff;
@@ -185,7 +177,155 @@ margin-top: 1em;
     color: #111111;
     filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
 }
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    
+@media only screen and (min-width: 1201px){
+    .info span{
+        color: #EBC340;
+        font-size: 0.87rem;
     }
+}
+@media all and (max-width: 1200px){
+    .card{
+        height: 60%;
+        width: 25%;
+        margin: 0.75em;
+        box-shadow: 0 3px 5px #000;
+        border-radius: 0.5em;
+        overflow: hidden;
+        text-align: center;
+        background-color: #181A26;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .info span{
+        color: #EBC340;
+        font-size: 1rem;
+    }
+}
+@media all and (max-width: 768px){
+    .text-question-box{
+        color: #EBC340;
+        font-family: 'JetBrains Mono', monospace;
+        font-style: italic; 
+        font-size: 1.75rem;
+        letter-spacing: 1px;
+        }
+        .text-box{
+            color: #fff;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-style: normal;
+            font-size: 1.75rem;
+        }
+        .big p{
+            color: #fff;
+            font-size: 6rem;
+            letter-spacing: 1px;
+            padding: 0.25em 0em;
+        }
+        .text-box a{
+            color: black;
+            background: #f5d25f;
+            display: inline-block;
+            border: 0.25em solid #EBC340;
+            padding: 0.25em 1.5em;
+            cursor: pointer;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 0.25em;
+        }
+            .card{
+                height: 60%;
+                width: 25%;
+                margin: 0.75em;
+                box-shadow: 0 3px 5px #000;
+                border-radius: 0.5em;
+                overflow: hidden;
+                text-align: center;
+                background-color: #181A26;
+                font-family: 'Open Sans Condensed', sans-serif;
+            }
+            .social-media{
+                text-align: center;
+                font-size: 3rem;
+            }
+}
+  @media all and (max-width: 480px){
+    .card{
+        height: 60%;
+        width: 80%;
+        margin: 0.75em;
+        box-shadow: 0 3px 5px #000;
+        border-radius: 0.5em;
+        overflow: hidden;
+        text-align: center;
+        background-color: #181A26;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .logo{
+        width: 6em;
+        height: 6em;
+        cursor: pointer;
+    }
+    .navigation ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 0.25em;
+    }
+    .text-question-box{
+        color: #EBC340;
+        font-family: 'JetBrains Mono', monospace;
+        font-style: italic; 
+        font-size: 1rem;
+        letter-spacing: 1px;
+        }
+        .text-box{
+            color: #fff;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-style: normal;
+            font-size: 2rem;
+        }
+        .big p{
+            color: #fff;
+            font-size: 4rem;
+            letter-spacing: 1px;
+            padding: 0.25em 0em;
+        }
+        .text-box a{
+            color: black;
+            background: #f5d25f;
+            display: inline-block;
+            border: 0.25em solid #EBC340;
+            padding: 0.25em 1.5em;
+            cursor: pointer;
+            font-size: 0.95rem;
+            text-decoration: none;
+            border-radius: 0.25em;
+        }
+        .spons-text{
+            color: #fff;
+            text-align: center;
+            font-size: 1.75rem;
+            padding-top: 0.5em;
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+        .footer{
+            min-height: 5vh;
+            width: 100%;
+            background-color: #101117;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 2em 2em;
+        
+        }
+        .copyright{
+            color: #fff;
+            text-align: center;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 1.5rem;
+        }
+        .social-media{
+            text-align: center;
+            font-size: 2rem;
+        }
+        .fab{
+            margin: 1em 0;
+        }
+}
